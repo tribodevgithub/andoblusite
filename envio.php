@@ -23,9 +23,7 @@ try {
     $mail->Port       = 465;    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('no-reply@andoblu.com.br', 'Mailer');
-    $mail->addAddress('no-reply@andoblu.com.br', 'Andoblu');     //Add a recipient
-    $mail->addReplyTo('no-reply@andoblu.com.br', 'Information');
+    $mail->setFrom('admin@andoblu.com.br', 'Andoblu');
     $mail->isHTML(true);                                  
     $mail->Subject = 'Mensagem enviada do Site - Andoblu';
 
