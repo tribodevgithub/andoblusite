@@ -23,7 +23,7 @@ try {
     $mail->Port       = 465;    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('contato@astromarketing.com.brr', 'Mailer');
+    $mail->setFrom('contato@astromarketing.com.br', 'Mailer');
     $mail->addAddress('contato@astromarketing.com.br', 'Andoblu');     //Add a recipient
     $mail->addReplyTo('contato@astromarketing.com.br', 'Information');
     $mail->isHTML(true);                                  
