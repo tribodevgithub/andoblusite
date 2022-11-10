@@ -29,7 +29,7 @@ try {
     $mail->isHTML(true);                                  
     $mail->Subject = 'Mensagem enviada do Site - Andoblu';
 
-    $body = " Mensagem enviada através do site, segue informações abaixo: <br>
+    $body = " Mensagem enviada do site, segue abaixo: <br>
     
     Nome:". $_POST['nome'] ." <BR>
     E-mail: ". $_POST['email'] ." <BR>
