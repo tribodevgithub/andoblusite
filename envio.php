@@ -19,7 +19,7 @@ try {
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'no-reply@andoblu.com.br';                     //SMTP username
     $mail->Password   = 'M?DGQ7Xc)H-P8js';                               //SMTP password
-    $mail->SMTPSecure = 'SSL/TLS';            //Enable implicit TLS encryption
+    $mail->SMTPSecure = 'SSL';            //Enable implicit TLS encryption
     $mail->Port       = 465;    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
