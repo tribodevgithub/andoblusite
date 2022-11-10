@@ -15,17 +15,17 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
 
 
-    $mail->Host       = 'smtpout.secureserver.net';                     //Set the SMTP server to send through
+    $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'contato@astromarketing.com.br';                     //SMTP username
-    $mail->Password   = 'Xpory2014!';                               //SMTP password
-    $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
+    $mail->Username   = 'no-reply@andoblu.com.br';                     //SMTP username
+    $mail->Password   = 'M?DGQ7Xc)H-P8js';                               //SMTP password
+    $mail->SMTPSecure = 'SSL/TLS';            //Enable implicit TLS encryption
     $mail->Port       = 465;    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('contato@astromarketing.com.br', 'Mailer');
-    $mail->addAddress('contato@astromarketing.com.br', 'Andoblu');     //Add a recipient
-    $mail->addReplyTo('contato@astromarketing.com.br', 'Information');
+    $mail->setFrom('no-reply@andoblu.com.br', 'Mailer');
+    $mail->addAddress('no-reply@andoblu.com.br', 'Andoblu');     //Add a recipient
+    $mail->addReplyTo('no-reply@andoblu.com.br', 'Information');
     $mail->isHTML(true);                                  
     $mail->Subject = 'Mensagem enviada do Site - Andoblu';
 
