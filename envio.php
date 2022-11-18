@@ -39,20 +39,6 @@ try {
 
     $mail->Body = $body; 
 
-            //E-mail remetente (deve ser o mesmo de quem fez a autenticação)
-            $Mailer->From = 'no-reply@andoblu.com.br';
-
-            //Nome do Remetente
-            $Mailer->FromName = 'Andoblu';
-    
-            //Assunto da mensagem
-            $Mailer->Subject = 'Seu Email Enviado com Sucesso!'
-        
-            //Corpo da mensagem em texto
-            $Mailer->AltBody = 'Obrigado! Seu Email Enviado com Sucesso!';
-    
-            //Destinatario 
-            $Mailer->AddAddress($email);
 
     $enviado = $mail->send();
     echo 'E-mail enviado com Sucesso';
