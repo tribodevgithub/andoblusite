@@ -43383,6 +43383,11 @@ h4 {
   padding: 120px 0;
 }
 
+.ptb-110 {
+  padding-top: 180px;
+  padding-bottom: 40px;
+}
+
 .ptb-100 {
   padding: 100px 0;
 }
@@ -45641,7 +45646,7 @@ a:hover,
 }
 
 .white-space-100 {
-  height: 100px;
+  height: 250px;
 }
 
 .pricing-tab-list {
