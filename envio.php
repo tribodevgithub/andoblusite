@@ -17,15 +17,15 @@ try {
 
     $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'no-reply@andoblu.com.br';                     //SMTP username
-    $mail->Password   = 'M?DGQ7Xc)H-P8js';                               //SMTP password
+    $mail->Username   = 'contato@andoblu.com.br';                     //SMTP username
+    $mail->Password   = '3k|#a;Kl8O';                               //SMTP password
     $mail->SMTPSecure = 'SSL/TLS';            //Enable implicit TLS encryption
     $mail->Port       = 587;    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('no-reply@andoblu.com.br', 'Mailer');
-    $mail->addAddress('no-reply@andoblu.com.br', 'Andoblu');     //Add a recipient
-    $mail->addReplyTo('no-reply@andoblu.com.br', 'Information');
+    $mail->setFrom('contato@andoblu.com.br', 'Mailer');
+    $mail->addAddress('contato@andoblu.com.br', 'Andoblu');     //Add a recipient
+    $mail->addReplyTo('contato@andoblu.com.br', 'Information');
     $mail->isHTML(true);                                  
     $mail->Subject = 'Mensagem enviada do Site - Andoblu';
 
